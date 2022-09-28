@@ -12,7 +12,7 @@
 - [c] количество гласных букв ('a', 'e', 'i', 'o', 'u', 'y') в строке s
 """
 
-from test.common.context import get_integer, get_string
+from tests.common.context import get_integer, get_string
 
 x = get_integer()
 y = get_integer()
