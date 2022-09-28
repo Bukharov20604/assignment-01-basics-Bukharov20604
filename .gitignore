@@ -127,10 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< HEAD
-
-.idea/
-
-
-=======
->>>>>>> 1adc14b (Initial commit)
