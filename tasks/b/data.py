@@ -18,7 +18,7 @@
     > подсказка: используйте срез
 """
 
-from test.common.context import get_integer
+from tests.common.context import get_integer
 
 n = get_integer()
 a = ...
