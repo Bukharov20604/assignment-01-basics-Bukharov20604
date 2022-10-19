@@ -14,7 +14,7 @@
 
 from test.common.context import get_integer, get_string
 
-x = get_integer()
+x= get_integer()
 y = get_integer()
 s = get_string()
 
