@@ -30,7 +30,7 @@ print(min(a), max(a))
 print(sum(a))
 c = list()
 for i in range(n):
-if a[i] % 2 == 0:
+         if a[i] % 2 == 0
 c.append(a[i] ** 2)
 print(c)
 print(a.index(min(a)))
