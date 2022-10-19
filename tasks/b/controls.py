@@ -14,24 +14,18 @@
 
 from test.common.context import get_integer, get_string
 
-x = get_integer()
+х = get_integer()
 y = get_integer()
 s = get_string()
 
-print(x, y, s)
-
-
 b = ((abs(x - y) - 1))
-print (b)
-def collatz(n):
-    if n:
-         return 0
-
-    while n:
-        n = (n/2) if n % 2 else (3 * n +1)
-        cnt
-    return cnt
-
-print(collatz(n))
+print(b)
+while x>1 :
+ a=0
+p = a+1
+if x%2==0 :
+  x=x/2
+else : x=3*x+1
+print(p)
 a = (s.count("a") + s.count("e") + s.count("i") + s.count("o") + s.count("u") + s.count("y"))
 print(a)
