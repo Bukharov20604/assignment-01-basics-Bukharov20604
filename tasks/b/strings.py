@@ -13,8 +13,8 @@
 - [g] первую позицию вхождения первой строки во вторую (или -1, если их нет)
 """
 
-s1 = input(jgerigrekgregre)
-s2 = input(wefjeofjioekof)
+s1 = input()
+s2 = input()
 print(len(s1)*len(s2))
 print(s1, s2)
 print(s1 + ',\t' + s2, sep='')
