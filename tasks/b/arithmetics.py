@@ -27,14 +27,11 @@ from test.common.context import get_integer, get_float  # не обращайт�
 x = get_integer()
 y = get_integer()
 z = get_float()
-
-print(x, y, z)  # 567 8 5454.42343248234
+print(x, y, z)
 print((x + y + z))
 print( x*y*z)
-    if (x*z) > int(x*z)
-print(int(x*z)+1)
-    else
-print(int(x*z))
+print(round(x*y))
+print(x/z)
 print( x //z)
 print(x % y)
 print( y**z)
