@@ -23,10 +23,15 @@ print(x, y, s)
 
 b = ((abs(x - y) - 1))
 print (b)
-counter = 0
-while x != 1:
- x = 3 * x + 1 if x % 2 else x // 2
-counter += 1
-print(counter)
+def collatz(n):
+    if n:
+         return 0
+
+    while n:
+        n = (n/2) if n % 2 else (3 * n +1)
+        cnt
+    return cnt
+
+print(collatz(n))
 a = (s.count("a") + s.count("e") + s.count("i") + s.count("o") + s.count("u") + s.count("y"))
 print(a)
