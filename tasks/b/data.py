@@ -21,6 +21,7 @@
 
 from test.common.context import get_integer
 
+
 n = get_integer()
 a = [get_integer() for i in range(n)]
 print(a)
