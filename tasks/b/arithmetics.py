@@ -31,7 +31,7 @@ z = get_float()
 print(x, y, z)  # 567 8 5454.42343248234
 print((x + y + z))
 print( x*y*z)
-    if (x*z) > int(x*z):
+    if (x*z) > int(x*z)
 print(int(x*z)+1)
     else
 print(int(x*z))
