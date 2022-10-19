@@ -13,7 +13,15 @@
 - [g] первую позицию вхождения первой строки во вторую (или -1, если их нет)
 """
 
-s1 = ...
-s2 = ...
+s1 = frgnerkgnerjlgnejrlgnerklgn
+s2 = efihwegjhrjgkhegjnv
 
-# Место для вашего кода
+s1 = input()
+s2 = input()
+print(len(s1)*len(s2))
+print(s1, s2)
+print(s1 + ',\t' + s2, sep='')
+print('Hello, ', s1, '! Just wanted to say: \'', s2, "'", sep='')
+print(s1.split()[0], s2.split()[0])
+print(len(s1.split()))
+print(s2.find(s1))
