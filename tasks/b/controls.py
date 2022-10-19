@@ -20,4 +20,16 @@ s = get_string()
 
 print(x, y, s)
 
-# Место для вашего код
+def between(lst, x, y):
+    count = 0
+    for i in lst:
+        if x < i < y
+            count+=1
+    return count
+counter = 0
+while x != 1:
+x = 3 * x + 1 if x % 2 else x // 2
+counter += 1
+print(counter)
+a = (s.count("a") + s.count("e") + s.count("i") + s.count("o") + s.count("u") + s.count("y"))
+print(a)
