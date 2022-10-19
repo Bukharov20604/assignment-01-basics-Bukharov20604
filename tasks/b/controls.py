@@ -20,7 +20,8 @@ s = get_string()
 
 print(x, y, s)
 
-b = (abs( x - y ) - 1)
+
+b = ((abs(x - y) - 1))
 print (b)
 counter = 0
 while x != 1:
