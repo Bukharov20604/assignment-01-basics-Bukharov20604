@@ -20,12 +20,8 @@ s = get_string()
 
 print(x, y, s)
 
-def between(lst, x, y):
-    count = 0
-    for i in lst:
-        if x < i < y
-            count+=1
-    return count
+b = ((abs(x - y) - 1))
+print(b)
 counter = 0
 while x != 1:
 x = 3 * x + 1 if x % 2 else x // 2
