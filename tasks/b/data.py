@@ -29,7 +29,8 @@ print(a[0], a[(n - 1)//2], a[-1])
 print(min(a), max(a))
 print(sum(a))
 c = list()
-for i in range(n): if a[i] % 2 == 0
+for i in range(n):
+    if a[i] % 2 == 0:
 c.append(a[i] ** 2)
 print(c)
 print(a.index(min(a)))
