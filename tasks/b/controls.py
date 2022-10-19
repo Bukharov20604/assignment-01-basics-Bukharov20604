@@ -20,12 +20,10 @@ s = get_string()
 
 b = ((abs(x - y) - 1))
 print(b)
-while x>1 :
- a=0
-p = a+1
-if x%2==0 :
-  x=x/2
-else : x=3*x+1
-print(p)
+counter  = 0
+while x != 1:
+x = 3 * x + 1 if x % 2 else x // 2
+counter += 1
+print(counter)
 a = (s.count("a") + s.count("e") + s.count("i") + s.count("o") + s.count("u") + s.count("y"))
 print(a)
