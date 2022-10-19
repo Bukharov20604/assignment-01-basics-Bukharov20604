@@ -27,18 +27,11 @@ print(a)
 print(a[0], a[(n - 1)//2], a[-1])
 print(min(a), max(a))
 print(sum(a))
-k=a[]
-s=0
-for i in range(n) :
-    if k[i]%2==0 :
-     s = s+1
-k[i]=k[i]*k[i]
-    else :
-k[i]=0
-for i in range (s) :
-    if k[i]==0 :
-k.remove(k[i])
-print (k)
+c = list()
+for i in range(n):
+ if a[i] % 2 == 0:
+  c.append(a[i] ** 2)
+print(c)
 print(a.index(min(a)))
 a.reverse()
 print(a)
