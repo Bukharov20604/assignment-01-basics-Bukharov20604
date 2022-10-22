@@ -27,9 +27,16 @@ from test.common.context import get_integer, get_float  # не обращайт�
 x = get_integer()
 y = get_integer()
 z = get_float()
-
-print(x, y, z)  # вывести три числа через пробел
-
-# Место для вашего кода
-
-FLOATS = ...
+print(x, y, z)
+print((x + y + z))
+print( x*y*z)
+if (x*z) > int(x*z):
+ print(int(x*z)+1)
+else: print(int(x*z))
+print(x/z)
+print( x //z)
+print(x % y)
+print( y**z)
+print(((x+y)*(x+z)*(z+y))**3)
+print("{0:.5f}".format(z))
+FLOATS = 6
